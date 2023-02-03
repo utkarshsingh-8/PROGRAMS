@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "array": "c",
+        "deque": "c",
+        "string": "c",
+        "vector": "c",
+        "iterator": "c",
+        "cmath": "cpp",
+        "iostream": "cpp",
+        "HOMEWORK.C": "cpp",
+        "PRACTICE.C": "cpp"
+    }
+}
