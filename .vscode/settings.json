@@ -8,6 +8,7 @@
         "cmath": "cpp",
         "iostream": "cpp",
         "HOMEWORK.C": "cpp",
-        "PRACTICE.C": "cpp"
+        "PRACTICE.C": "cpp",
+        "ostream": "cpp"
     }
 }
