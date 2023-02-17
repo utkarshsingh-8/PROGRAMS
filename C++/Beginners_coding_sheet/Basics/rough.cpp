@@ -91,10 +91,35 @@ int main()
 
     int dynamically = (int *)malloc(sizeof(int));*/
 
-    //cout << 75;
-    //cout<<"Hello";
+    // cout << "75";
+    // cout << '75';
+    // cout << "abcde";
+    // cout << '%';
 
-    
+    // cout << sizeof(short);
+
+    // char ch = 1;
+    // cout << "Value is :" << ch;
+
+    // PRINT FRACTIONAL PART OF FLOATING NUMBER
+    /*float f;
+    cout << "Enter a floating number : ";
+    cin >> f;
+
+    cout << "The fractional part of the given number is" << endl;
+    float frac_part = f - (int)f;
+    cout << frac_part;*/
+
+    /*int a;
+    a=1,2,3;
+    cout<<a;*/
+
+    // char test = 0;
+    // cout << (test ? 9 : 'a');
+
+    int a = 10, b = 20;
+    (a, b) = 30; // Since b is l-value, this statement is valid in C++, but not in C.
+    printf("b = %d", b);
 
     return 0;
 }

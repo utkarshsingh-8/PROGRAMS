@@ -13,20 +13,20 @@ int main()
         cout << i;
     }*/
 
-    /*void *ptr;
-    int i = 10;
-    ptr = &i;
+/*void *ptr;
+int i = 10;
+ptr = &i;
 
-    cout << "--> " << &i << endl;
-    cout << "--> " << ptr << endl;
-    cout << "--> " << *ptr << endl;// we cannot derefernce a void pointer*/
+cout << "--> " << &i << endl;
+cout << "--> " << ptr << endl;
+cout << "--> " << *ptr << endl;// we cannot derefernce a void pointer*/
 
-    int i = 65;
-    int *p = &i;
-    cout << *p << endl;
-    char *pc = (char *)p;
-    cout << *pc << endl;
-    cout << pc << endl;
+ int i = 65;
+ int *p = &i;
+ cout << *p << endl;
+ char *pc = (char *)p;
+ cout << *pc << endl;
+ cout << pc << endl;
 
-    return 0;
+ return 0;
 }
