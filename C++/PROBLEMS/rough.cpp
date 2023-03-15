@@ -117,9 +117,9 @@ int main()
     // char test = 0;
     // cout << (test ? 9 : 'a');
 
-   /* int a = 10, b = 20;
-    (a, b) = 30; // Since b is l-value, this statement is valid in C++, but not in C.
-    printf("b = %d", b);*/
+    /* int a = 10, b = 20;
+     (a, b) = 30; // Since b is l-value, this statement is valid in C++, but not in C.
+     printf("b = %d", b);*/
 
     // cout << INT32_MAX << " " << INT32_MIN;
 
@@ -130,21 +130,69 @@ int main()
         cout << i;
     }*/
 
-/*void *ptr;
-int i = 10;
-ptr = &i;
+    /*void *ptr;
+    int i = 10;
+    ptr = &i;
 
-cout << "--> " << &i << endl;
-cout << "--> " << ptr << endl;
-cout << "--> " << *ptr << endl;// we cannot derefernce a void pointer*/
+    cout << "--> " << &i << endl;
+    cout << "--> " << ptr << endl;
+    cout << "--> " << *ptr << endl;// we cannot derefernce a void pointer*/
 
- /*int i = 65;
- int *p = &i;
- cout << *p << endl;
- char *pc = (char *)p;
- cout << *pc << endl;
- cout << pc << endl;*/
+    /*int i = 65;
+    int *p = &i;
+    cout << *p << endl;
+    char *pc = (char *)p;
+    cout << *pc << endl;
+    cout << pc << endl;*/
 
+    // FIND THE SUM OF THE FOLLOWING SERIES
+    // 1 - 2 + 3 - 4 ....n
+    /*int n, sum = 0;
+    cout << "Enter the value of n" << endl;
+    cin >> n;
+
+    for (int i = 1; i <= n; i++)
+    {
+        i % 2 == 0 ? sum = sum - i : sum = sum + i;
+    }
+    cout << "Sum is :" << sum;*/
+
+    // GIVEN TWO NUMBERS A AND B. FIND A RAISE TO THE POWER B
+    /*int a, b, ans = 1;
+    cout << "Enter the value of a and b" << endl;
+    cin >> a >> b;
+
+    for (int i = 1; i <= b; i++)
+    {
+        ans = ans * a;
+    }
+    cout << "A raise to the power B is : " << ans;*/
+
+    // unsigned short int a = -'a';
+    // unsigned int a = -25.22;
+    // cout<<a;
+    // cout << sizeof(long double) << endl;
+    // float f = 2.555;
+    // double d = 2.25;
+    // cout << f << endl;
+    // cout << d << endl;
+    // signed char ch = 97;
+    // cout << ch << endl;
+    // bool b = 'k';
+    // cout<<b<<endl;
+    // cout << (-5 % 8);
+    // cout << ('d' % 'a');
+    // cout<<'a'% 10;
+    // cout<<'a'+ 10.299;
+    // cout << 44 / ' ';
+    // cout << 79.255 / ' ';
+    // bool d = 0;
+    // cout << 79 / d;
+
+    if (!0)
+    {
+        cout<<"Hello world";
+    }
 
     return 0;
 }

@@ -5,15 +5,15 @@ using namespace std;
 
 int main()
 {
-    int number, sum = 0, remainder;
+    int number, sum = 0;
     cout << "Enter a given number :";
     cin >> number;
 
     while (number != 0)
     {
-        remainder = number % 10;
-        sum = sum + remainder;
+        sum = sum + (number % 10);
         number = number / 10;
     }
+
     cout << "The sum of the digits of a given number :" << sum;
 }
